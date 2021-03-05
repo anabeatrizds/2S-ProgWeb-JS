@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 9</title>
+</head>
+<body>
+    <script>
+        nome = prompt("Digite seu nome: ");
+        x = prompt("Digite o ano do seu nascimento: ");
+        y = prompt("Digite o ano atual: ");
+
+        function calcularIdade (){
+        var ano_atual = new Date().getFullYear();
+        var ano_informado = x;
+        var idade = ano_atual - ano_informado;
+
+        console.log(idade);
+        }
+
+    </script>
+</body>
+</html>

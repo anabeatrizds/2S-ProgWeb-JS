@@ -1,0 +1,32 @@
+body {
+    background-image: url("img1.png");
+}
+
+form {
+    text-align: center;
+    color: white;
+    font-family: Verdana;
+    margin-top: 220px;
+    margin-left: -28px;
+}
+
+h2{
+    font-size: 20px;
+}
+
+#botao{
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: solid 1px white;
+    font-size: 15px;
+}
+
+input{
+    margin-top: 10px;
+}
+
+select{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
